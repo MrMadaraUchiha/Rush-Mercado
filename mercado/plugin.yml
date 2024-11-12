@@ -1,0 +1,48 @@
+name: RUSH-Mercado
+version: 1.0
+description: Plugin simples de /mercado.
+author: RUSH
+main: com.survivorserver.GlobalMarket.Market
+depend: [Vault]
+
+commands:
+  market:
+    description: Comando geral do plugin.
+    aliases: [mercado]
+    permission: rush-mercado.mercado
+    permission-message: "§cVocê não tem permissão para utilizar este comando."
+
+permissions:
+  rush-mercado.mercado:
+    description: Permissão para utilizar o comando geral do plugin.
+    default: true
+  rush-mercado.vender:
+    description: Permissão para poder vender um item no mercado.
+    default: true
+  rush-mercado.vender.infinito:
+    description: Permissão para vender infinitos itens no mercado.
+    default: op
+  rush-mercado.ver:
+    description: Permissão para abrir o mercado e comprar itens.
+    default: true
+  rush-mercado.coletar:
+    description: Permissão para abrir o mercado coletar e retirar seus itens.
+    default: true
+  rush-mercado.historico:
+    description: Permissão para ver o histórico do mercado (/mercado historico).
+    default: op
+  rush-mercado.checar:
+    description: Permissão para ver o preço médio de um item no mercado (/mercado checar).
+    default: op
+  rush-mercado.bypass.espera:
+    description: Permissão para ignorar a fila de itens do mercado.
+    default: op
+  rush-mercado.bypass.precomaximo:
+    description: Permissão para ignorar o preço máximo que um item por ser vendido.
+    default: op
+  rush-mercado.bypass.itensmaximo:
+    description: Permissão para ignorar o limite máximo de itens.
+    default: op
+  rush-mercado.admin:
+    description: Permissão para utilizar os comandos administrativos do plugin.
+    default: op
