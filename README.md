@@ -45,6 +45,10 @@ Caso precise de ajuda ou tenha sugestões, visite nosso tópico oficial no [Game
 
 Este projeto é distribuído sob a licença MIT. Consulte o arquivo `LICENSE` para mais detalhes.
 
+### Créditos
+
+Este projeto foi desenvolvido por **[Eduardo Mior](https://github.com/eduardo-mior)**. Agradecemos pela contribuição no desenvolvimento deste plugin incrível!
+
 ### Exemplo de Configuração
 
 ```yaml
